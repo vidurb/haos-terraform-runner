@@ -1,11 +1,12 @@
 ---
 name: HAOS Terraform Runner
-version: "0.2.1"
+version: "0.3.0"
 slug: terraform_runner
 description: >-
   Runs an HCP Terraform (Terraform Cloud) self-hosted agent so workspaces
   using agent execution can reach your home network.
 url: https://github.com/vidurb/haos-terraform-runner
+image: ghcr.io/vidurb/haos-terraform-runner/terraform-runner
 startup: application
 boot: manual
 init: false
