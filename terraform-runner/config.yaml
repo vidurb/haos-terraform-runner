@@ -1,6 +1,6 @@
 ---
 name: HAOS Terraform Runner
-version: "0.1.0"
+version: "0.2.0"
 slug: terraform_runner
 description: >-
   Runs an HCP Terraform (Terraform Cloud) self-hosted agent so workspaces
@@ -10,6 +10,7 @@ startup: application
 boot: manual
 init: false
 arch:
+  - aarch64
   - amd64
 stage: experimental
 

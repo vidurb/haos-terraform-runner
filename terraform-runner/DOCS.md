@@ -4,7 +4,7 @@ This add-on runs the official HashiCorp [`tfc-agent`](https://developer.hashicor
 
 ## Prerequisites
 
-- Home Assistant OS or Supervised installation on **amd64** (`x86_64`). The upstream agent image is **linux/amd64 only**; it will not run on ARM boards.
+- Home Assistant OS or Supervised installation on **amd64** (`x86_64`) or **aarch64** (`ARM64`, e.g. Raspberry Pi 4/5).
 - An **agent pool** in your HCP Terraform / Terraform Cloud organization.
 - An **agent token** created for that pool ([documentation](https://developer.hashicorp.com/terraform/cloud-docs/agents/agent-pools)).
 

@@ -14,7 +14,7 @@ Home Assistant OS add-on repository that runs an [HCP Terraform](https://develop
 
 ## Requirements
 
-- **amd64** Home Assistant installation (the upstream agent image is amd64-only).
+- **amd64** or **aarch64** (ARM64, e.g. Raspberry Pi 4/5) Home Assistant installation.
 - An agent pool and token from HCP Terraform / Terraform Cloud.
 
 ## Documentation
