@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 - 2026-04-07
+
+- First stable release.
+- Supports amd64 and aarch64 (ARM64).
+- Pre-built images published to GHCR via GitHub Actions CI.
+- tfc-agent v1.28.6.
+
 ## 0.3.2 - 2026-04-07
 
 - Fix: keep `curl` installed at runtime (required by bashio for Supervisor API calls).
