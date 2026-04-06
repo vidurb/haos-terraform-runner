@@ -1,0 +1,7 @@
+---
+configuration:
+  agent_token: HCP Terraform agent pool token
+  agent_name: Agent display name (optional)
+  log_level: Log level
+  single_mode: Single-execution mode (one job then exit)
+  tfc_address: Terraform Cloud / HCP Terraform API address
