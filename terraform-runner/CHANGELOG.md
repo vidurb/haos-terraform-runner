@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.2 - 2026-04-07
+
+- Fix: keep `curl` installed at runtime (required by bashio for Supervisor API calls).
+
 ## 0.3.1 - 2026-04-07
 
 - Fix: publish images to `ghcr.io/vidurb/haos-terraform-runner/terraform-runner` to match addon config.

@@ -15,7 +15,7 @@ RUN set -eux; \
     unzip /tmp/tfc-agent.zip -d /usr/local/bin/; \
     rm /tmp/tfc-agent.zip; \
     chmod +x /usr/local/bin/tfc-agent*; \
-    apk del curl unzip
+    apk del unzip
 
 COPY run.sh /
 RUN chmod a+x /run.sh

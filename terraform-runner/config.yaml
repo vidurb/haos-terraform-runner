@@ -1,6 +1,6 @@
 ---
 name: HAOS Terraform Runner
-version: "0.3.1"
+version: "0.3.2"
 slug: terraform_runner
 description: >-
   Runs an HCP Terraform (Terraform Cloud) self-hosted agent so workspaces
