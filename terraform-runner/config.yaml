@@ -21,7 +21,7 @@ options:
   tfc_address: "https://app.terraform.io"
 
 schema:
- agent_token: password
+  agent_token: password
   agent_name: str?
   log_level: list(trace|debug|info|warn|error)
   single_mode: bool
