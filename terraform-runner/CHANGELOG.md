@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1 - 2026-04-07
+
+- Fix: publish images to `ghcr.io/vidurb/haos-terraform-runner/terraform-runner` to match addon config.
+
 ## 0.3.0 - 2026-04-07
 
 - Build images in GitHub Actions CI and push to GHCR; no more on-device builds.

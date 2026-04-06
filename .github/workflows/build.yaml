@@ -8,7 +8,7 @@ on:
 
 env:
   ARCHITECTURES: '["amd64", "aarch64"]'
-  IMAGE_NAME: terraform-runner
+  IMAGE_NAME: haos-terraform-runner/terraform-runner
 
 permissions:
   contents: read
