@@ -1,0 +1,28 @@
+---
+name: HAOS Terraform Runner
+version: "0.1.0"
+slug: terraform_runner
+description: >-
+  Runs an HCP Terraform (Terraform Cloud) self-hosted agent so workspaces
+  using agent execution can reach your home network.
+url: https://github.com/vidurb/haos-terraform-runner
+startup: application
+boot: manual
+init: false
+arch:
+  - amd64
+stage: experimental
+
+options:
+  agent_token: null
+  agent_name: ""
+  log_level: info
+  single_mode: false
+  tfc_address: "https://app.terraform.io"
+
+schema:
+ agent_token: password
+  agent_name: str?
+  log_level: list(trace|debug|info|warn|error)
+  single_mode: bool
+  tfc_address: url
